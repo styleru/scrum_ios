@@ -7,6 +7,10 @@
 //
 
 import UIKit
+import OneSignal
+import Fabric
+import Crashlytics
+import YandexMobileMetrica
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +20,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        OneSignal.initWithLaunchOptions(launchOptions, appId: "e15c6782-5588-4517-aca1-447ef7b37c4d")
+        Fabric.with([Crashlytics.self])
+        YMMYandexMetrica.activate(withApiKey: "56b7d6c3-9703-430a-957d-47fe23ac6ea2")
         return true
     }
 

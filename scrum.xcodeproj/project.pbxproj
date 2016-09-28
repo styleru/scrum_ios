@@ -7,21 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		334F2CA91D9693D800AEDAF2 /* ServerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334F2CA81D9693D800AEDAF2 /* ServerClass.swift */; };
 		338A2E8C1D96813A00FF4C68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338A2E8B1D96813A00FF4C68 /* AppDelegate.swift */; };
-		338A2E8E1D96813A00FF4C68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338A2E8D1D96813A00FF4C68 /* ViewController.swift */; };
+		338A2E8E1D96813A00FF4C68 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338A2E8D1D96813A00FF4C68 /* LoginViewController.swift */; };
 		338A2E911D96813A00FF4C68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338A2E8F1D96813A00FF4C68 /* Main.storyboard */; };
 		338A2E931D96813A00FF4C68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338A2E921D96813A00FF4C68 /* Assets.xcassets */; };
 		338A2E961D96813A00FF4C68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338A2E941D96813A00FF4C68 /* LaunchScreen.storyboard */; };
+		338A2E9E1D9684A500FF4C68 /* ScrumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338A2E9D1D9684A500FF4C68 /* ScrumViewController.swift */; };
+		338A2EA11D96891C00FF4C68 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338A2EA01D96891C00FF4C68 /* TableViewCell.swift */; };
+		8B83EE7797998B4A7474C125 /* Pods_scrum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A0F75F2A7A6DB7AFFF5669 /* Pods_scrum.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		334F2CA81D9693D800AEDAF2 /* ServerClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerClass.swift; sourceTree = "<group>"; };
 		338A2E881D96813A00FF4C68 /* scrum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scrum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		338A2E8B1D96813A00FF4C68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		338A2E8D1D96813A00FF4C68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		338A2E8D1D96813A00FF4C68 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		338A2E901D96813A00FF4C68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		338A2E921D96813A00FF4C68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		338A2E951D96813A00FF4C68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		338A2E971D96813A00FF4C68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		338A2E9D1D9684A500FF4C68 /* ScrumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrumViewController.swift; sourceTree = "<group>"; };
+		338A2EA01D96891C00FF4C68 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		33C7AB631D96A12900BB7953 /* scrum.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = scrum.entitlements; sourceTree = "<group>"; };
+		94F99EA88056AAF4BE13575A /* Pods-scrum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scrum.release.xcconfig"; path = "Pods/Target Support Files/Pods-scrum/Pods-scrum.release.xcconfig"; sourceTree = "<group>"; };
+		A5A0F75F2A7A6DB7AFFF5669 /* Pods_scrum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_scrum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC67972A473B899764A26C6 /* Pods-scrum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scrum.debug.xcconfig"; path = "Pods/Target Support Files/Pods-scrum/Pods-scrum.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B83EE7797998B4A7474C125 /* Pods_scrum.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +52,8 @@
 			children = (
 				338A2E8A1D96813A00FF4C68 /* scrum */,
 				338A2E891D96813A00FF4C68 /* Products */,
+				FA99C086DF958650763429D6 /* Pods */,
+				6BFB6C340752D5B89F22BD76 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +68,35 @@
 		338A2E8A1D96813A00FF4C68 /* scrum */ = {
 			isa = PBXGroup;
 			children = (
+				33C7AB631D96A12900BB7953 /* scrum.entitlements */,
 				338A2E8B1D96813A00FF4C68 /* AppDelegate.swift */,
-				338A2E8D1D96813A00FF4C68 /* ViewController.swift */,
+				338A2E8D1D96813A00FF4C68 /* LoginViewController.swift */,
 				338A2E8F1D96813A00FF4C68 /* Main.storyboard */,
+				338A2EA01D96891C00FF4C68 /* TableViewCell.swift */,
+				338A2E9D1D9684A500FF4C68 /* ScrumViewController.swift */,
 				338A2E921D96813A00FF4C68 /* Assets.xcassets */,
 				338A2E941D96813A00FF4C68 /* LaunchScreen.storyboard */,
 				338A2E971D96813A00FF4C68 /* Info.plist */,
+				334F2CA81D9693D800AEDAF2 /* ServerClass.swift */,
 			);
 			path = scrum;
+			sourceTree = "<group>";
+		};
+		6BFB6C340752D5B89F22BD76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5A0F75F2A7A6DB7AFFF5669 /* Pods_scrum.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA99C086DF958650763429D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FEC67972A473B899764A26C6 /* Pods-scrum.debug.xcconfig */,
+				94F99EA88056AAF4BE13575A /* Pods-scrum.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +106,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 338A2E9A1D96813A00FF4C68 /* Build configuration list for PBXNativeTarget "scrum" */;
 			buildPhases = (
+				A822FA79F20DA2A6871DA366 /* [CP] Check Pods Manifest.lock */,
 				338A2E841D96813A00FF4C68 /* Sources */,
 				338A2E851D96813A00FF4C68 /* Frameworks */,
 				338A2E861D96813A00FF4C68 /* Resources */,
+				527966A8AC77A61103132040 /* [CP] Embed Pods Frameworks */,
+				763D0696D607A89831D7644E /* [CP] Copy Pods Resources */,
+				334C3C381D987F8C00AE2E47 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -98,6 +137,14 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 4RWLL37A47;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -132,13 +179,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		334C3C381D987F8C00AE2E47 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/Fabric/run eeb7f68e6125d13b6284e25dc96be59fdd1526f1 a1f55221fd42ca4f0cd4d950e7e3279180d444cf9d177c78db6a7a43e902ae3d";
+		};
+		527966A8AC77A61103132040 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-scrum/Pods-scrum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		763D0696D607A89831D7644E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-scrum/Pods-scrum-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A822FA79F20DA2A6871DA366 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		338A2E841D96813A00FF4C68 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				338A2E8E1D96813A00FF4C68 /* ViewController.swift in Sources */,
+				334F2CA91D9693D800AEDAF2 /* ServerClass.swift in Sources */,
+				338A2E9E1D9684A500FF4C68 /* ScrumViewController.swift in Sources */,
+				338A2E8E1D96813A00FF4C68 /* LoginViewController.swift in Sources */,
 				338A2E8C1D96813A00FF4C68 /* AppDelegate.swift in Sources */,
+				338A2EA11D96891C00FF4C68 /* TableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,26 +368,40 @@
 		};
 		338A2E9B1D96813A00FF4C68 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEC67972A473B899764A26C6 /* Pods-scrum.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = scrum/scrum.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yuriy Klimenko (P5XSUMU8U2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 4RWLL37A47;
 				INFOPLIST_FILE = scrum/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.styleru.scrum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		338A2E9C1D96813A00FF4C68 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94F99EA88056AAF4BE13575A /* Pods-scrum.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = scrum/scrum.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yuriy Klimenko (P5XSUMU8U2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 4RWLL37A47;
 				INFOPLIST_FILE = scrum/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.styleru.scrum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -300,6 +425,7 @@
 				338A2E9C1D96813A00FF4C68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
