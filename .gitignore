@@ -30,7 +30,6 @@ xcuserdata/
 Packages/
 .build/
 Pods/
-Podfile
 Podfile.lock
 
 scrum.xcworkspace/
